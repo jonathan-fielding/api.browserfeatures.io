@@ -8,7 +8,7 @@ The API for Browser Features,
 
 Retrieve data for a given feature
 
-### /v1/browsers/latest
+### /v1/browser/stable
 
 Get a list of the latest stable browsers
 

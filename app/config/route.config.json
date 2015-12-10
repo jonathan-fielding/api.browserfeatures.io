@@ -6,7 +6,7 @@
       "controller": "../controllers/v1/feature/feature-controller"
     },
     {
-      "route": "/v1/browsers/latest",
+      "route": "/v1/browser/stable",
       "method": "GET",
       "controller": "../controllers/v1/browsers/browsers-controller"
     }
