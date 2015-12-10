@@ -8,6 +8,10 @@ The API for Browser Features,
 
 Retrieve data for a given feature
 
+### /v1/browsers/latest
+
+Get a list of the latest stable browsers
+
 ## Licences
 
 The data and code for this project are under a seperate licence due to the data coming from caniuse.com. 
