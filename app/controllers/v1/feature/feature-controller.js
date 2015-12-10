@@ -8,15 +8,23 @@ function FeatureController() {
 FeatureController.prototype = {
 	get: function(req, res, next) {
 		var feature = req.params.feature;
-		var support = caniuse.getSupport(feature)
 
-		var response = {
-			name: feature,
-			browsers: support,
-			attribution: 'Licensed under CC BY 4.0 license from caniuse.com'
+		try {
+		    var support = caniuse.getSupport(feature)
+
+			var response = {
+				name: feature,
+				browsers: support,
+				attribution: 'Licensed under CC BY 4.0 license from caniuse.com'
+			}
+
+			res.status(200).json(response);
 		}
-
-		res.status(200).json(response);
+		catch (err) {
+			res.status(404).json({
+				error: 'api not found'
+			});
+		}
 	}
 };
 
