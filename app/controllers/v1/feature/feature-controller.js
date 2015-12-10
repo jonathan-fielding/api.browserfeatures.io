@@ -21,8 +21,12 @@ FeatureController.prototype = {
 			res.status(200).json(response);
 		}
 		catch (err) {
+
+			var closest = caniuse.find(feature);
+
 			res.status(404).json({
-				error: 'api not found'
+				error: 'api not found',
+				suggestions: closest
 			});
 		}
 	}
