@@ -8,6 +8,10 @@ The API for Browser Features,
 
 Retrieve data for a given feature
 
+## Licences
+
+The data and code for this project are under a seperate licence due to the data coming from caniuse.com. 
+
 ### Code Licence
 
 Copyright (c) 2015 Jonathan Fielding
