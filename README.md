@@ -69,10 +69,6 @@ http://127.0.0.1:9000/v1/feature/border-radius
 
 Get a list of the latest stable browsers
 
-### /v1/browser/stable
-
-Get a list of the latest stable browsers
-
 ## Licences
 
 The data and code for this project are under a seperate licence due to the data coming from caniuse.com. 
