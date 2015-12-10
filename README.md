@@ -65,6 +65,17 @@ http://127.0.0.1:9000/v1/feature/border-radius
 
 ```
 
+If no API is found suggestions will be offered
+
+http://127.0.0.1:9000/v1/feature/border
+
+```js
+{
+	"error": "api not found",
+	"suggestions": ["border-image", "border-radius"]
+}
+```
+
 ## Licences
 
 The data and code for this project are under a seperate licence due to the data coming from caniuse.com. 
