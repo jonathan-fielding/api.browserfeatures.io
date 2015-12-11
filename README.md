@@ -76,6 +76,26 @@ http://127.0.0.1:9000/v1/feature/border
 }
 ```
 
+### /v1/browser/stable
+
+Get a list of the latest stable browsers
+
+```js
+{
+    "browsers": [
+        "safari 9",
+        "opera 33",
+        "ios_saf 9.0-9.1",
+        "ie_mob 11",
+        "ie 11",
+        "edge 13",
+        "firefox 42",
+        "chrome 47"
+    ],
+    "attribution": "Licensed under CC BY 4.0 license from caniuse.com"
+}
+```
+
 ## Licences
 
 The data and code for this project are under a seperate licence due to the data coming from caniuse.com. 

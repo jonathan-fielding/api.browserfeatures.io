@@ -1,9 +1,7 @@
 var caniuse = require('caniuse-api')
 
-
 function FeatureController() {
 }
-
 
 FeatureController.prototype = {
 	get: function(req, res, next) {
