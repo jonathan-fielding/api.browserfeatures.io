@@ -29,7 +29,6 @@
     "body-parser": "^1.14.1",
     "caniuse-api": "^1.4.1",
     "cluster-service": "^1.0.6",
-    "cors": "^2.7.1",
     "express": "^4.13.3"
   }
 }

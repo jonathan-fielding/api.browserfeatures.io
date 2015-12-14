@@ -4,7 +4,6 @@ var application = express();
 var bodyParser = require('body-parser');
 var routeConfig = require('./route-config');
 var settingsConfig = require('./settings/settings-config');
-var cors = require('cors');
 
 function configureWorker(application) {
   configureApplication(application);
@@ -15,7 +14,6 @@ function configureWorker(application) {
 
 function configureApplication(application) {
   application.use(bodyParser.json());
-  application.use(cors());
 
   application.use(function(req, res, next) {
     res.set('Cache-Control', 'no-cache, no-store, must-revalidate');
