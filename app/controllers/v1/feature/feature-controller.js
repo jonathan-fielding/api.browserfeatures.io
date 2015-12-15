@@ -1,9 +1,6 @@
 var caniuse = require('caniuse-api')
 
-function FeatureController() {
-}
-
-FeatureController.prototype = {
+module.exports = {
 	get: function(req, res, next) {
 		var feature = req.params.feature;
 
@@ -27,8 +24,4 @@ FeatureController.prototype = {
 			});
 		}
 	}
-};
-
-var featureController = new FeatureController();
-
-module.exports = featureController;
+}
