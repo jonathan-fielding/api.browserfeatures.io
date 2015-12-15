@@ -1,9 +1,6 @@
 var caniuse = require('caniuse-api')
 
-function BrowsersController() {
-}
-
-BrowsersController.prototype = {
+module.exports = {
 	get: function(req, res, next) {
 		var browserData = caniuse.getLatestStableBrowsers();
 		var joinedBrowsers = browserData.join(',');
@@ -25,7 +22,3 @@ BrowsersController.prototype = {
 		res.status(200).json(response);
 	}
 };
-
-var browsersController = new BrowsersController();
-
-module.exports = browsersController;
