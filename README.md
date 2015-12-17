@@ -15,49 +15,57 @@ http://127.0.0.1:9000/v1/feature/border-radius
     "name": "border-radius",
     "browsers": {
         "and_chr": {
-            "y": 46
+            "supported": true,
+            "since": 47
         },
         "and_uc": {
-            "y": 9.9
+            "supported": true,
+            "since": 9.9
         },
         "android": {
-            "y": 2.1,
-            "x": 2.1
+            "supported": true,
+            "since": 2.1,
+            "prefixed_until": 2.1
         },
         "chrome": {
-            "y": 4,
-            "x": 4
+            "supported": true,
+            "since": 4,
+            "prefixed_until": 4
         },
         "edge": {
-            "y": 12
+            "supported": true,
+            "since": 12
         },
         "firefox": {
-            "a": 2,
-            "x": 3.6,
-            "y": 3
+            "supported": true,
+            "since": 3,
+            "partial_support": 2,
+            "prefixed_until": 3.6
         },
         "ie": {
-            "n": 8,
-            "y": 9
+            "supported": true,
+            "since": 9
         },
         "ie_mob": {
-            "y": 10
+            "supported": true,
+            "since": 10
         },
         "ios_saf": {
-            "y": 3.2,
-            "x": 3.2
+            "supported": true,
+            "since": 3.2,
+            "prefixed_until": 3.2
         },
         "op_mini": {
-            "n": 5
+            "supported": false
         },
         "opera": {
-            "n": 10,
-            "y": 10.5
+            "supported": true,
+            "since": 10.5
         },
         "safari": {
-            "y": 3.1,
-            "x": 4,
-            "#1": 6.1
+            "supported": true,
+            "since": 3.1,
+            "prefixed_until": 4
         }
     },
     "attribution": "Licensed under CC BY 4.0 license from caniuse.com"
