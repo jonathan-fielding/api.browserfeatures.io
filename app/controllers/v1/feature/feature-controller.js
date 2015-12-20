@@ -40,7 +40,7 @@ module.exports = {
 			var closest = caniuse.find(feature);
 
 			res.status(404).json({
-				error: 'api not found',
+				error: 'feature not found',
 				suggestions: closest
 			});
 		}
