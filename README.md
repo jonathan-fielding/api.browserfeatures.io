@@ -4,6 +4,19 @@ The API for Browser Features,
 
 ## Endpoints
 
+### /v1/feature
+
+Get a list of all the features that we have support data for.
+
+http://localhost:1101/v1/browser/stable
+
+```js
+{
+    "features": ["aac", "ac3-ec3", "addeventlistener", "ambient-light", "..."],
+    "attribution": "Licensed under CC BY 4.0 license from caniuse.com"
+}
+```
+
 ### /v1/feature/:feature-name
 
 Retrieve data for a given feature
