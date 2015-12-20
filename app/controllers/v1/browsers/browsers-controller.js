@@ -17,7 +17,7 @@ module.exports = {
 				safari: joinedBrowsers.match('safari ([0-9\.]{1,3})') && joinedBrowsers.match('safari ([0-9\.]{1,3})')[1]
 			},
 			attribution: 'Licensed under CC BY 4.0 license from caniuse.com'
-		}
+		};
 
 		res.status(200).json(response);
 	}

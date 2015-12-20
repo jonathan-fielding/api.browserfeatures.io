@@ -1,6 +1,11 @@
 {
   "routes": [
     {
+      "route": "/v1/feature",
+      "method": "GET",
+      "controller": "../controllers/v1/feature/feature-list-controller"
+    },
+    {
       "route": "/v1/feature/:feature",
       "method": "GET",
       "controller": "../controllers/v1/feature/feature-controller"
