@@ -117,6 +117,30 @@ Get a list of the latest stable browsers
 }
 ```
 
+
+### /v1/browser/:browser
+
+Get a list of features a browser supports
+
+```js
+{
+    "name": "Ie 6",
+    "slug": "ie6",
+    "features": [
+        "contenteditable",
+        "css-zoom",
+        "document-execcommand",
+        "eot", "innertext", 
+        "input-autocomplete-onoff",
+        "text-overflow", 
+        "wbr-element",
+        "word-break"
+    ],
+    "attribution": "Licensed under CC BY 4.0 license from caniuse.com"
+}
+```
+
+
 ## Licences
 
 The data and code for this project are under a seperate licence due to the data coming from caniuse.com. 
