@@ -13,7 +13,12 @@
     {
       "route": "/v1/browser/stable",
       "method": "GET",
-      "controller": "../controllers/v1/browsers/browsers-controller"
+      "controller": "../controllers/v1/browsers/stable-controller"
+    },
+    {
+      "route": "/v1/browser/:browser",
+      "method": "GET",
+      "controller": "../controllers/v1/browsers/browser-controller"
     }
   ]
 }
